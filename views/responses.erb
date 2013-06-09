@@ -1,0 +1,6 @@
+<table class="table table-bordered">
+  <tr><td><h4>Email</h4></td><td><h4>Date</h4></td></tr>
+  <% @emails.each do |email| %>
+  <tr><td><%= email.email %></td><td><%= email.created_at %></td></tr>
+ <% end %>
+</table>

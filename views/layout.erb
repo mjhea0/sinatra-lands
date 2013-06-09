@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link href="http://twitter.github.io/bootstrap/assets/css/bootstrap.css" rel="stylesheet">
+    <link href="http://twitter.github.io/bootstrap/assets/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body style="padding-top: 50px;">
+    <div class="container">
+      <%= yield %>
+      <br/>
+      <% if flash[:notice] %>
+        <p class="alert alert-success"><%= flash[:notice] %>
+      <% end %>
+      <% if flash[:error] %>
+        <p class="alert alert-error"><%= flash[:error] %>
+      <% end %>
+    </div>
+  </body>
+</html>
