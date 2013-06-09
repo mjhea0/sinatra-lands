@@ -15,6 +15,6 @@ Packed with awesome tools. Push to Heroku immediately.
     
 Then launch [http://localhost:4567/](http://localhost:4567/)
 
-Want to know how to send an automated email response? Just ask.
+Want to know how to send an automated email response? Just ask. (Or: have some fun and fork it and do it yourself)
 
 And it's past my bedtime. Night.
